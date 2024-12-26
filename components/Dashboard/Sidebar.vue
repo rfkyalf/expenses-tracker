@@ -23,7 +23,7 @@
 </template>
 
 <script setup lang="ts">
-import { DASHBOARD_NAV_LIST } from '~/constants/dashboard';
+import { DASHBOARD_NAV_LIST } from '~/helpers/constants/dashboard';
 
 defineProps<{ isOpen: boolean }>();
 </script>
